@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://moturuab.github.io/sitemap.xml

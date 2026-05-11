@@ -1,17 +1,17 @@
 {
   "name": "Abhishek Moturu",
   "short_name": "Abhishek Moturu",
-  "description": "AI researcher and health AI builder working on reliable machine learning, noisy labels, fairness, medical imaging, and agentic AI systems.",
+  "description": "Machine learning researcher building dependable AI for clinical and noisy data.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#07111f",
-  "theme_color": "#07111f",
+  "background_color": "#f8f7f1",
+  "theme_color": "#f8f7f1",
   "icons": [
     {
       "src": "assets/img/abhishek-moturu-square.jpg",
       "sizes": "900x900",
       "type": "image/jpeg",
-      "purpose": "any maskable"
+      "purpose": "any"
     }
   ]
 }
