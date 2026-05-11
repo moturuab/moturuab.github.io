@@ -1,17 +1,16 @@
-# Abhishek Moturu — GitHub Pages personal site
+# Abhishek Moturu — Personal Website
 
-A lightweight static personal website for `moturuab.github.io`.
+Static GitHub Pages site for `moturuab.github.io`.
 
 ## Files
 
-- `index.html` — concise homepage
-- `cv.html` — detailed CV page
+- `index.html` — homepage
+- `cv.html` — detailed CV
 - `404.html` — not-found page
 - `assets/css/styles.css` — site styling
-- `assets/js/main.js` — mobile nav, scroll header, reveal animation
-- `assets/img/` — portrait, square image, and social preview image
-- `favicon.svg`, `site.webmanifest`, `robots.txt`, `sitemap.xml` — metadata and SEO files
+- `assets/js/main.js` — navigation and reveal animation
+- `assets/img/` — portrait, headshot, and social preview image
 
-## How to publish
+## Deployment
 
-Copy the contents of this folder into the root of the `moturuab.github.io` repository and commit the changes to the GitHub Pages publishing branch.
+Copy the contents of this folder into the root of the `moturuab.github.io` repository and commit to the GitHub Pages publishing branch.
