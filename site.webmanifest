@@ -1,17 +1,16 @@
 {
   "name": "Abhishek Moturu",
   "short_name": "Abhishek Moturu",
-  "description": "Machine learning researcher building dependable AI for clinical and noisy data.",
+  "description": "Machine learning researcher working on reliable AI for noisy and clinical data.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f8f7f1",
-  "theme_color": "#f8f7f1",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
   "icons": [
     {
-      "src": "assets/img/abhishek-moturu-square.jpg",
-      "sizes": "900x900",
-      "type": "image/jpeg",
-      "purpose": "any"
+      "src": "favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
     }
   ]
 }
