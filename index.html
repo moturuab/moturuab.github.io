@@ -82,8 +82,8 @@
       <div class="container hero-grid">
         <div class="hero-copy reveal">
           <p class="eyebrow">PhD candidate · University of Toronto · Vector Institute</p>
-          <h1 id="hero-title">Machine learning from imperfect data.</h1>
-          <p class="hero-lede">I study how models learn when labels are noisy, examples differ in difficulty, and evaluation is not straightforward. I also build and evaluate AI systems with clinicians, particularly in medical imaging and pain assessment.</p>
+          <h1 id="hero-title">Learning from noisy and difficult data.</h1>
+          <p class="hero-lede">I am a Computer Science PhD candidate at the University of Toronto and a Vector Institute researcher. I develop lightweight methods for learning from noisy labels and samples that vary in difficulty, including adaptive weighting, label correction, and targeted synthetic data. I also work on fairness and time-series missingness, medical AI and vision-language models, agentic AI, and AI education and governance.</p>
           <div class="inline-actions">
             <a class="button button-primary" href="mailto:moturuab@cs.toronto.edu?subject=AI%20role%20or%20collaboration%20opportunity">Email me</a>
             <a class="button button-secondary" href="Abhishek_Moturu_CV.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
@@ -94,33 +94,33 @@
 
         <div class="hero-visual reveal" aria-label="Portrait and profile summary">
           <div class="portrait-shell">
-            <img src="assets/img/abhishek-moturu-portrait.jpg" alt="Abhishek Moturu smiling in front of green ivy" width="1000" height="1250" />
+            <img src="assets/img/abhishek-moturu-portrait.jpg" alt="Abhishek Moturu smiling in front of green ivy" />
           </div>
           <div class="profile-card">
-            <p class="card-kicker">Current work</p>
-            <p>Sample difficulty, label correction, targeted synthetic data, medical VLMs, and AI governance.</p>
+            <p class="card-kicker">Current research</p>
+            <p>LiLAW · LiNC · LiBaGS · medical VLMs · agentic AI</p>
             <div class="mini-tags" aria-label="Research areas">
-              <span>Noisy labels</span><span>Health AI</span><span>VLMs</span><span>Agents</span>
+              <span>Sample difficulty</span><span>Noisy labels</span><span>VLMs</span><span>Governance</span>
             </div>
           </div>
         </div>
       </div>
 
       <div class="container proof-strip reveal" aria-label="Profile highlights">
-        <div><strong>Methods</strong><span>Noisy labels and sample difficulty</span></div>
-        <div><strong>Health AI</strong><span>SickKids and UHN KITE</span></div>
-        <div><strong>Education</strong><span>T‑CAIREM and U of T</span></div>
-        <div><strong>Industry</strong><span>CTO at CoordCare</span></div>
+        <div><strong>Core methods</strong><span>Weighting, correction, and synthesis</span></div>
+        <div><strong>Data</strong><span>Images, tables, and time series</span></div>
+        <div><strong>Applied projects</strong><span>SickKids and UHN KITE</span></div>
+        <div><strong>AI practice</strong><span>T‑CAIREM and CoordCare</span></div>
       </div>
     </section>
 
     <section class="section" id="about" aria-labelledby="about-title">
       <div class="container split-heading reveal">
         <p class="eyebrow dark">About</p>
-        <h2 id="about-title">My work starts with a simple question: which examples should a model trust?</h2>
+        <h2 id="about-title">I study how sample difficulty can make machine learning more reliable.</h2>
         <div>
-          <p>I develop methods that account for differences in sample difficulty rather than treating every training example as equally reliable. This includes work on sample weighting, label correction, fairness, missingness, and targeted synthetic data.</p>
-          <p>In parallel, I work with clinicians on pediatric whole-body MRI, renal ultrasound, and automated pain assessment. These projects have also led me to study how people use AI tools and how hospitals should evaluate, teach, and govern them.</p>
+          <p>My PhD research develops lightweight methods that learn from differences between training samples. LiLAW adapts the weight given to easy, moderate, and hard examples; LiNC estimates how much to trust each label and corrects likely errors; and LiBaGS selects synthetic samples that fill useful gaps near a model’s decision boundary. Related work examines fairness and missingness in time-series data.</p>
+          <p>I work across image, tabular, time-series, and multimodal data. Projects with SickKids and UHN KITE have included pediatric cancer surveillance, renal ultrasound, and automated pain assessment. Other current work explores medical vision-language models, agentic healthcare systems, AI literacy, and hospital AI governance.</p>
         </div>
       </div>
     </section>
@@ -136,7 +136,7 @@
         <article class="role-card reveal">
           <div class="role-meta">2025–Present</div>
           <h3>Chief Technology Officer · CoordCare</h3>
-          <p>Leading the development of agentic AI prototypes for care coordination and working with the founding team on product and technical strategy.</p>
+          <p>Managing the technical team building agentic AI prototypes for healthcare and working with the founders on product development and investment.</p>
         </article>
         <article class="role-card reveal">
           <div class="role-meta">2021–Present</div>
@@ -146,7 +146,7 @@
         <article class="role-card reveal">
           <div class="role-meta">2019–Present</div>
           <h3>Graduate Researcher · SickKids + UHN KITE</h3>
-          <p>Building and evaluating models for pediatric imaging and automated pain monitoring, in collaboration with clinicians and care teams.</p>
+          <p>Working with clinical collaborators on pediatric imaging and automated pain-monitoring projects at SickKids and in long-term care.</p>
         </article>
         <article class="role-card reveal">
           <div class="role-meta">2023–Present</div>
@@ -159,57 +159,41 @@
     <section class="section muted" id="research" aria-labelledby="research-title">
       <div class="container section-heading reveal">
         <p class="eyebrow dark">Research</p>
-        <h2 id="research-title">Selected research and writing</h2>
-        <p>Recent papers and a few earlier projects that shaped my research.</p>
+        <h2 id="research-title">Recent papers and manuscripts</h2>
+        <p>Publications, preprints, and active manuscripts from 2025–2026.</p>
       </div>
 
-      <div class="container research-list">
-        <article class="research-item reveal">
-          <div class="pub-year">2026</div>
-          <div>
-            <h3><a href="https://arxiv.org/abs/2605.11231" target="_blank" rel="noopener noreferrer">LiBaGS: Lightweight Boundary Gap Synthesis</a></h3>
-            <p>A generator-agnostic method for selecting synthetic examples that fill sparse but useful regions near a decision boundary.</p>
-          </div>
+      <div class="container publication-groups">
+        <article class="publication-group reveal">
+          <h3>Machine learning methods and models</h3>
+          <ol class="paper-list">
+            <li><span>2026</span><div><a href="https://arxiv.org/abs/2509.20786" target="_blank" rel="noopener noreferrer">LiLAW: Lightweight Learnable Adaptive Weighting to Learn Sample Difficulty &amp; Improve Noisy Training</a><small>Preprint</small></div></li>
+            <li><span>2026</span><div><a href="https://arxiv.org/abs/2605.11231" target="_blank" rel="noopener noreferrer">LiBaGS: Lightweight Boundary Gap Synthesis for Targeted Synthetic Data Selection</a><small>Preprint</small></div></li>
+            <li><span>2026</span><div><strong>LiNC: Lightweight Noise Correction via Per-Sample Trust and Gaussian Mixture Modeling</strong><small>Manuscript</small></div></li>
+            <li><span>2026</span><div><a href="https://arxiv.org/abs/2603.01301" target="_blank" rel="noopener noreferrer">When Does RL Help Medical VLMs? Disentangling Vision, SFT, and RL Gains</a><small>Preprint</small></div></li>
+            <li><span>2026</span><div><a href="https://arxiv.org/abs/2509.16727" target="_blank" rel="noopener noreferrer">Pain in 3D: Generating Controllable Synthetic Faces for Automated Pain Assessment</a><small>International Conference on Pattern Recognition</small></div></li>
+            <li><span>2025</span><div><a href="https://arxiv.org/abs/2507.19673" target="_blank" rel="noopener noreferrer">SynPAIN: A Synthetic Dataset of Pain and Non-Pain Facial Expressions</a><small>Preprint</small></div></li>
+          </ol>
         </article>
-        <article class="research-item reveal">
-          <div class="pub-year">2026</div>
-          <div>
-            <h3><a href="https://arxiv.org/abs/2603.01301" target="_blank" rel="noopener noreferrer">When Does RL Help Medical VLMs?</a></h3>
-            <p>A controlled study of what vision, supervised fine-tuning, and reinforcement learning each contribute to medical VLM performance.</p>
-          </div>
-        </article>
-        <article class="research-item reveal">
-          <div class="pub-year">2026</div>
-          <div>
-            <h3><a href="https://journals.plos.org/digitalhealth/article?id=10.1371%2Fjournal.pdig.0001408" target="_blank" rel="noopener noreferrer">Moving Beyond One-Size-Fits-All AI Education</a></h3>
-            <p>An argument for tailoring healthcare AI education to the model, intended user, clinical specialty, condition, and setting.</p>
-          </div>
-        </article>
-        <article class="research-item reveal">
-          <div class="pub-year">2025</div>
-          <div>
-            <h3><a href="https://arxiv.org/abs/2509.20786" target="_blank" rel="noopener noreferrer">LiLAW: Lightweight Learnable Adaptive Weighting</a></h3>
-            <p>A three-parameter approach that learns how much weight to give easy, moderate, and hard samples during training.</p>
-          </div>
-        </article>
-        <article class="research-item reveal">
-          <div class="pub-year">2025</div>
-          <div>
-            <h3><a href="https://pubmed.ncbi.nlm.nih.gov/39807245/" target="_blank" rel="noopener noreferrer">Real-Time Evaluation of Automated Pain Monitoring</a></h3>
-            <p>An evaluation of a computer vision system used to monitor pain behaviour in older adults living in long-term care.</p>
-          </div>
-        </article>
-        <article class="research-item reveal">
-          <div class="pub-year">2023</div>
-          <div>
-            <h3><a href="https://proceedings.mlr.press/v187/moturu23a.html" target="_blank" rel="noopener noreferrer">Volume-based Performance not Guaranteed by Promising Patch-based Results</a></h3>
-            <p>Why strong patch-level results in medical imaging may not carry over to the clinically meaningful volume-level task.</p>
-          </div>
+
+        <article class="publication-group reveal">
+          <h3>Health AI, education, and governance</h3>
+          <ol class="paper-list">
+            <li><span>2026</span><div><strong>A Pan-Canadian Plan for AI Education</strong><small>Manuscript</small></div></li>
+            <li><span>2026</span><div><strong>Towards a Healthcare AI Governance Framework</strong><small>Manuscript</small></div></li>
+            <li><span>2026</span><div><strong>Towards a Healthcare AI Literacy Framework</strong><small>Manuscript</small></div></li>
+            <li><span>2026</span><div><strong>A Narrative Review of Artificial Intelligence-Based Imaging in Dermatology: From Potential to Practice</strong><small>Manuscript</small></div></li>
+            <li><span>2026</span><div><a href="https://journals.plos.org/digitalhealth/article?id=10.1371%2Fjournal.pdig.0001408" target="_blank" rel="noopener noreferrer">Moving beyond one-size-fits-all education approaches for artificial intelligence in healthcare</a><small>PLOS Digital Health</small></div></li>
+            <li><span>2026</span><div><a href="https://jps.library.utoronto.ca/index.php/utmj/article/view/46175" target="_blank" rel="noopener noreferrer">Building an Interdisciplinary Centre for AI Education: Strategy and Practice</a><small>University of Toronto Medical Journal</small></div></li>
+            <li><span>2026</span><div><strong>Socially Grounded Agentic AI: Coordinating Plural Perspectives through Social Theory</strong><small>Pluralistic Alignment Workshop at ICML</small></div></li>
+            <li><span>2025</span><div><strong>Evaluating Human–AI Interaction in Pediatric Whole-Body MRI: An Exploratory Study of an AI-Assisted Tumour Overlay</strong><small>JMIR Human Factors</small></div></li>
+            <li><span>2025</span><div><a href="https://pubmed.ncbi.nlm.nih.gov/39807245/" target="_blank" rel="noopener noreferrer">Real-Time Evaluation of an Automated Computer Vision System to Monitor Pain Behaviour in Older Adults</a><small>Journal of Rehabilitation and Assistive Technologies Engineering</small></div></li>
+          </ol>
         </article>
       </div>
 
       <div class="container center-cta reveal">
-        <a class="button button-primary" href="cv.html#publications">See full academic output</a>
+        <a class="button button-primary" href="cv.html#publications">Earlier publications, reports, and full citations</a>
       </div>
     </section>
 
