@@ -1,17 +1,34 @@
-# Abhishek Moturu personal website
+# Abhishek Moturu personal website update
 
-Static GitHub Pages site for `moturuab.github.io`.
+This bundle updates the GitHub Pages site from the CV dated August 4, 2026.
 
-## Files
+## Updated files
 
-- `index.html` — homepage
-- `cv.html` — detailed CV
-- `404.html` — not-found page
-- `assets/css/styles.css` — styling
-- `assets/js/main.js` — small navigation and animation script
-- `assets/img/` — portrait and social preview images
-- `robots.txt`, `sitemap.xml`, `site.webmanifest`, `favicon.svg` — metadata
+- `index.html` — homepage, affiliations, roles, manuscripts, awards, and metadata
+- `cv.html` — detailed web CV
+- `Abhishek_Moturu_CV_Aug_4.pdf` — dated downloadable CV
+- `Abhishek_Moturu_CV.pdf` — the same updated CV at the previous stable URL
+- `sitemap.xml` and `site.webmanifest` — updated site metadata
+- `assets` — site styles, script, portrait, and social images; the role grid has a small responsive layout update
+- `404.html`, `favicon.svg`, and `robots.txt` — included for a complete site handoff
 
-## Deploy
+Copy this bundle without using `--delete` so any unrelated repository files remain untouched.
 
-Copy the contents of this folder into the root of the `moturuab.github.io` repository and commit to the GitHub Pages publishing branch.
+## Update the repository
+
+```bash
+cd ~/Documents/moturuab.github.io
+git pull --ff-only origin master
+rsync -av --exclude='.git/' --exclude='.DS_Store' ~/Downloads/Abhishek_Moturu_Website_Aug_4_Update/ ./
+python3 -m http.server 8000
+```
+
+Open `http://localhost:8000`, then press `Control-C` in Terminal when the review is complete.
+
+```bash
+git status
+git diff -- index.html cv.html assets/css/styles.css sitemap.xml site.webmanifest README.md
+git add -A
+git commit -m "Update website from August 2026 CV"
+git push origin master
+```
