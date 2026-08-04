@@ -71,7 +71,6 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .section:first-of-type { background: var(--bg); }
 .section.muted { background: var(--bg-muted); }
 
-/* Header */
 .site-header {
   position: sticky;
   top: 0;
@@ -165,7 +164,6 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .nav-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
 .nav-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
 
-/* Hero */
 .hero,
 .cv-hero {
   position: relative;
@@ -377,7 +375,6 @@ h1 {
   font-size: 0.88rem;
 }
 
-/* Section headings */
 .split-heading,
 .section-heading { margin-bottom: 2.25rem; }
 .split-heading {
@@ -404,7 +401,6 @@ h1 {
 .split-heading p + p { margin-top: -0.1rem; }
 .section-heading { max-width: 790px; }
 
-/* Cards and grids */
 .capability-grid,
 .credential-grid,
 .detail-grid,
@@ -414,6 +410,10 @@ h1 {
 }
 .capability-grid { grid-template-columns: repeat(3, 1fr); }
 .role-grid { grid-template-columns: repeat(2, 1fr); }
+.role-grid > .role-card:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  min-height: auto;
+}
 .credential-grid { grid-template-columns: repeat(3, 1fr); }
 .detail-grid.compact { grid-template-columns: repeat(3, 1fr); }
 .capability-card,
@@ -543,7 +543,6 @@ h1 {
   font-weight: 900;
 }
 
-/* Research list */
 .research-list {
   display: grid;
   gap: 0.85rem;
@@ -639,7 +638,6 @@ h1 {
   line-height: 1.4;
 }
 
-/* Contact/footer */
 .contact-section {
   padding: 86px 0;
   background: var(--bg);
@@ -681,7 +679,6 @@ h1 {
 .footer-grid p { margin: 0; }
 .footer-grid a { color: var(--light-text); font-weight: 800; }
 
-/* CV page */
 .cv-hero-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 360px;
@@ -946,7 +943,6 @@ details[open] summary::after { content: "−"; }
 }
 .small-note { font-size: 0.92rem; }
 
-/* Animation */
 .reveal {
   opacity: 1;
   transform: none;
@@ -996,6 +992,7 @@ details[open] summary::after { content: "−"; }
   .role-grid,
   .two-col-list,
   .cv-spotlight-grid { grid-template-columns: 1fr; }
+  .role-grid > .role-card:last-child:nth-child(odd) { grid-column: auto; }
   .affiliations-layout {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -1067,7 +1064,6 @@ details[open] summary::after { content: "−"; }
   .cv-profile-card img { width: 86px; height: 86px; }
 }
 
-/* v5 refinements */
 .compact-capabilities .capability-card { min-height: 205px; }
 .compact-capabilities .capability-card span { margin-bottom: 1.2rem; }
 .cv-hero-grid-clean { grid-template-columns: minmax(0, 1fr) minmax(280px, 390px); }
@@ -1130,7 +1126,6 @@ details[open] summary::after { content: "−"; }
   .footer-actions { justify-content: flex-start; }
 }
 
-/* v6 refinements */
 .media-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
