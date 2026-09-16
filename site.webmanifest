@@ -4,8 +4,8 @@
   "description": "Machine learning researcher working across ML, vision, LLM/VLM reasoning, agentic AI, socially grounded AI safety, health AI, AI education, and AI governance.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#07111f",
-  "theme_color": "#07111f",
+  "background_color": "#f7f6f1",
+  "theme_color": "#f7f6f1",
   "icons": [
     {
       "src": "favicon.svg",
